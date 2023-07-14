@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="./project1.css">
+</head>
+<body>
+    <div id="ContactUs">
+        <h1>Contact-Us</h1>
+        <form action="./contact.html" method="POST">
+            <div class="form-shape">
+                <label for="query">Type of Query</label>
+                <select id="query" name="myQuery">
+                    <option value="sel" selected>
+                        Select
+                    </option>
+                    <option value="ord">
+                        Order related Issues
+                    </option>
+                    <option value="site">
+                        Site related Issues
+                    </option>
+                    <option value="fed">
+                        Complaint related Issues
+                    </option>
+                    <option value="others">
+                        Others
+                    </option>
+                </select>
+            </div>
+            <div class="form-shape">
+                <label for="email">Email-Id</label>
+                <input type="email" name="myEmail" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-shape">
+                <label for="pho">Phone Number</label>
+                <input type="phone" name="myPhone" id="pho" placeholder="Enter your phone no">
+            </div>
+            <div id="radio">
+                Are you a member of Godavari Ruchulu:
+                Yes<input type="radio" name="eligible">
+                No<input type="radio" name="eligible">
+            </div>
+            <div class="form-shape">
+                <label for="message">Ellaborate your query</label>
+                <textarea id="message" name="message" rows="10" cols="30"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            
+        </form>
+        <div>
+            <form action="./Godavari Ruchulu-p1.html" method="post">
+                <input type="submit" value="Home">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
